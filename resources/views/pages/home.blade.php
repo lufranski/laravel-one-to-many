@@ -2,7 +2,18 @@
 
 @section('content')
     
-    <h1>Top GardenGnomesBook accounts:</h1>
+    <div id="lettering">
+
+        <p id="top">
+            <em>
+
+                top
+            </em>
+        </p> 
+        <p id="name">
+            <span id="big">G</span><em>ardenGnomesBook <span id="bot"> accounts</span></em>
+        </p>
+    </div>
 
     <ul>
         @foreach ($people as $person) 
