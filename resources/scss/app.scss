@@ -5,6 +5,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .logo {
     max-width: 100px;
 
@@ -18,29 +22,57 @@ a {
     overflow-y: auto;
     padding: 2rem;
 
-    #lettering {
+    .lettering {
         position: relative;
+        margin-bottom: 20px;
 
-        #big {
-            font-size: 80px;
+        .gothic{
+            width: 100px;
         }
 
-        p {
-            font-size: 20px;
+        span {
+            font-size: 30px;            
+            position: absolute;
+            top: 30px;
+            left: 85px;
+
         }
 
+        #hometit {
+            left: 95px;
+        }
+        
         #top {
             position: absolute;
-            top: 40px;
-            left: 60px;
-            color: #65647C;
+            top: 5px;
+            left: 100px;
         }
 
         #bot {
             position: absolute;
-            bottom: 0;
-            left: 60px;
-            color: #65647C
+            top: 50px;
+            left: 200px;
+        }
+
+        #top, #bot {
+            color: #65647C;
         }
     }
+
+    .card {
+
+        .avatar {
+            max-width: 50px;
+            border-radius: 50%;
+        }
+
+        .mini {
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
 }

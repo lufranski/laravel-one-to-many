@@ -8,5 +8,9 @@
     
             <h5 class="align-self-center">GardenGnomesBook</h5>
         </a>
+
+        <a href="{{ route('posts')}}">
+            Discover some posts
+        </a>
     </div>
 </nav>
