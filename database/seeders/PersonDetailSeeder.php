@@ -6,9 +6,9 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 use App\Models\Person;
-use App\Models\PersonDetails;
+use App\Models\PersonDetail;
 
-class PersonDetailsSeeder extends Seeder
+class PersonDetailSeeder extends Seeder
 {
     /**
      * Run the database seeds.

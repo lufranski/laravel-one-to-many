@@ -16,9 +16,9 @@ class Person extends Model
     ];
 
     // Referenziare le tabelle con cui People Table ha relazioni
-    public function personDetails(){
+    public function personDetail(){
 
-        return $this -> hasOne(PersonDetails::class);
+        return $this -> hasOne(PersonDetail::class);
     }
 
     public function posts() {
